@@ -12,4 +12,6 @@ Teach us more about you! Build out an “About Me” webpage that quizzes the us
 
 ### Lighthouse Accessibility Report Score
 
+! [LightHouse](./IMG/Screenshot%202023-03-07%20at%2010.28.31%20PM.png)
+
 ### Reflections and Comments
