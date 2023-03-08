@@ -67,7 +67,7 @@ setTimeout(function () {
 
 
     } else {
-        alert('Ugh oh, we don\'t have that');
+        alert('Ugh oh, you broke the toy!');
     }
 
 },);
