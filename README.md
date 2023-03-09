@@ -1,4 +1,4 @@
-# Lab-02
+# Lab-03
 
 ## About Me (Hayden Cooper)
 
@@ -12,6 +12,6 @@ Teach us more about you! Build out an "About Me" webpage that quizzes the user o
 
 ### Lighthouse Accessibility Report Score
 
-! [LightHouse](./IMG/Screenshot%202023-03-07%20at%2010.28.31%20PM.png)
+! [LightHouse](./IMG/Screenshot%202023-03-08%20at%2011.09.38%20PM.png)
 
 ### Reflections and Comments
