@@ -23,48 +23,48 @@ function quiz() {
     //qA1 = 0;
   }
 
-    let question2 = prompt('Did I gardaute in 2014?').toLowerCase();
+  let question2 = prompt('Did I gardaute in 2014?\nYes or No').toLowerCase();
 
-    if (question2 === 'yes') {
-      alert('You are Correct');
-      console.log('Correct');
-    }
-    else {
-      alert('Incorrect, I did Graduate in 2014!');
-      console.log('Incorrect');
-    }
-    let question3 = prompt('Do I love Brewery?').toLowerCase();
+  if (question2 === 'yes') {
+    alert('You are Correct');
+    console.log('Correct');
+  }
+  else {
+    alert('Incorrect, I did Graduate in 2014!');
+    console.log('Incorrect');
+  }
+  let question3 = prompt('Do I love Brewery?\nYes or No').toLowerCase();
 
-    if (question3 === 'yes') {
-      alert('Like any Salior Should!');
-      console.log('Sailor Life');
-    }
+  if (question3 === 'yes') {
+    alert('Like any Salior Should!');
+    console.log('Sailor Life');
+  }
 
-    else {
-      alert('Wow, how dare ypu!');
-      console.log('Well thats not nice');
-    }
+  else {
+    alert('Wow, how dare ypu!');
+    console.log('Well thats not nice');
+  }
 
-    let question4 = prompt('Is golf life?').toLowerCase();
+  let question4 = prompt('Is golf life?\nYes or No').toLowerCase();
 
-    if (question4 === 'yes') {
-      alert('Lefties for the WIN, Phill + Bubba all the way!');
-      console.log('Phil is the best!');
-    }
-    else {
-      alert('Buuba Bombs');
-      console.log('Bubba Green Jacket');
-    }
-    let question5 = prompt('Do I love Snowboarding?').toLowerCase();
+  if (question4 === 'yes') {
+    alert('Lefties for the WIN, Phill + Bubba all the way!');
+    console.log('Phil is the best!');
+  }
+  else {
+    alert('Buuba Bombs');
+    console.log('Bubba Green Jacket');
+  }
+  let question5 = prompt('Do I love Snowboarding?\nYes or No').toLowerCase();
 
-    if (question4 === 'yes') {
-      alert('Favorite Snowboard area is in Utah at Pow Mow!');
-      console.log('Utah is the Greatest Snow on Earth');
-    }
-    else {
-      alert('Woody\'s world');
-      console.log('Powder Life');
-    }
+  if (question4 === 'yes') {
+    alert('Favorite Snowboard area is in Utah at Pow Mow!');
+    console.log('Utah is the Greatest Snow on Earth');
+  }
+  else {
+    alert('Woody\'s world');
+    console.log('Powder Life');
+  }
 
   for (let i = 0; i < 4; i++) {
     let numbergame = prompt('Guess the best number between 1-10 (hint what number is afraid of the 7)');
