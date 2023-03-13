@@ -39,3 +39,10 @@ main {
     width: 35%;
     float: right;
 }
+
+.lighthouse {
+    text-align: center;
+    image-rendering: auto;
+    image-resolution: 480p;
+    text-align: center;
+}

@@ -1,5 +1,4 @@
 'use strict';
-// setTimeout(
 quiz();
 
 function quiz() {
@@ -15,55 +14,44 @@ function quiz() {
   let question1 = prompt('Did I Attend L&N Stem Academy?\nYes or No').toLowerCase();
   if (question1 === 'yes') {
     alert('Great! I did attended L&N Stem Academy');
-    console.log('Correct');
     score++;
   } else {
     alert('Sorry I did not attended that school');
-    console.log('Incorrect');
-    //qA1 = 0;
   }
 
   let question2 = prompt('Did I gardaute in 2014?\nYes or No').toLowerCase();
 
   if (question2 === 'yes') {
     alert('You are Correct');
-    console.log('Correct');
   }
   else {
     alert('Incorrect, I did Graduate in 2014!');
-    console.log('Incorrect');
   }
   let question3 = prompt('Do I love Brewery?\nYes or No').toLowerCase();
 
   if (question3 === 'yes') {
     alert('Like any Salior Should!');
-    console.log('Sailor Life');
   }
 
   else {
     alert('Wow, how dare ypu!');
-    console.log('Well thats not nice');
   }
 
   let question4 = prompt('Is golf life?\nYes or No').toLowerCase();
 
   if (question4 === 'yes') {
     alert('Lefties for the WIN, Phill + Bubba all the way!');
-    console.log('Phil is the best!');
   }
   else {
     alert('Buuba Bombs');
-    console.log('Bubba Green Jacket');
   }
   let question5 = prompt('Do I love Snowboarding?\nYes or No').toLowerCase();
 
   if (question4 === 'yes') {
     alert('Favorite Snowboard area is in Utah at Pow Mow!');
-    console.log('Utah is the Greatest Snow on Earth');
   }
   else {
     alert('Woody\'s world');
-    console.log('Powder Life');
   }
 
   for (let i = 0; i < 4; i++) {
@@ -71,49 +59,40 @@ function quiz() {
 
     if (numbergame === '6') {
       alert('Correct, 6 because 7 ATE 9');
-      console.log('Riddle Me This');
       score++;
       i = 4;
     } else {
       numbergame = prompt('What ate 9?');
       if (numbergame === '6') {
-        console.log('The Riddler');
         score++;
         i = 4;
       } else {
         numbergame = prompt('How many rings does Michael Jordan have?');
         if (numbergame === '6') {
-          console.log('He is the G.O.A.T');
           score++;
           i = 4;
         } else {
           numbergame = prompt('How many rings did Scottie Pippen win with the Bulls');
           if (numbergame === '6') {
-            console.log('How many teams did Scottie Pippen play for in his professional basketball carrier?');
             score++;
             i = 4;
           } else {
             alert('sorry, thats not right');
             break;
           }
-          // numbergame5 = prompt('How many Green Jackest did Jack Nicklaus win?');
-          // console.log('I recommend you guess 6');
         }
       }
     }
   }
   let answer = ['pepper jack', 'cheddar', 'colby jack'];
   let numberOfGuess = 6;
-  //let correctAnswer = false;
 
-  console.log('****');
+
   while (numberOfGuess > 0) {
     let question = prompt('Favorite Cheeses?').toLowerCase();
     for (let i = 0; i < answer.length; i++) {
-      console.log(question);
       if (question === answer[i]) {
         alert('correct');
-        console.log('correct');
         numberOfGuess = 1;
         score++;
       }
@@ -121,14 +100,9 @@ function quiz() {
     numberOfGuess--;
     if (numberOfGuess === 0) {
       alert('incorrect');
-    //   numberOfGuess--;
-    // } else {
     }
   }
-  console.log(score);
   let userName = prompt('Enter your name please');
-  console.log(userName);
-  // userName.toLowerCase();
 
   alert(`Congratulations ${userName}. You got ${score}/7 question right.`);
 }
